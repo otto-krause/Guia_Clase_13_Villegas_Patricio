@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 float prom(int v[]);
-
+//Idem ejercicio anterior.
 void main ()
 {
 int v1[5], i, t, aux;

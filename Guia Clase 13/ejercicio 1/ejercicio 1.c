@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int suma(int v[]);
+int suma(int *v);//Recibe un puntero que se crea cuando delcaramos el vector.
 
 void main ()
 {
@@ -15,7 +15,7 @@ void main ()
     return 0;
 }
 
-int suma(int v[])
+int suma(int *v)
 {
     int total=0, i=0;
     for (i=0; i<5; i++)
